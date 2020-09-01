@@ -1,0 +1,28 @@
+package com.Aamir.practice;
+
+import java.util.Scanner;
+
+public class addition {
+    public static void main(String[] args) {
+        // adding two numbers
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter first digit: ");
+        int firstNumber = input.nextInt();
+
+        System.out.println("Enter second number: ");
+        int secondNumber = input.nextInt();
+
+        //Method 1
+        int addition = firstNumber + secondNumber;
+        
+        System.out.println("addition of two numbers is :" + " " + addition);
+
+        //Method 2
+
+        //System.out.println("Addition of " + firstNumber + " and " + secondNumber + " is " + (firstNumber + secondNumber) + ":");
+        
+        
+
+    }
+}
